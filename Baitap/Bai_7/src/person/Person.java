@@ -1,6 +1,6 @@
 package person;
 import java.util.Scanner;
- class Person {
+class person1 {
 	 private String email;
 	 private String full_name;
 	 private String date_of_birth;
@@ -23,18 +23,18 @@ import java.util.Scanner;
 		 Address = sc.nextLine();
 		 
 	 }public void display() {
-		 System.out.println(email);
 		 System.out.println(full_name);
+		 System.out.println(email);
 		 System.out.println(date_of_birth);
 		 System.out.println(sex);
 		 System.out.println(phone_number);
 		 System.out.println(Address);
 	 }
- } public class bai7{
+} public class Person{
 	 public static void main(String[] args)
 	 {
-		 Person p1= new Person();
+		 person1 p1= new person1();
 		 p1.getInformation();
 		 p1.display();
 	 }
- }
+}

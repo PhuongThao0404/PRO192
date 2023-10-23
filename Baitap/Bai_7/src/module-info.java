@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Bai7 {
+module Bai_7 {
 }
